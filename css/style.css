@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    width 100%;
+}
+
+#main-header {
+    background-size: cover;
+    background-image: url(../obrazy/man-1.jpg);
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100vw;
+}
+
+h1 {
+    font-family: verdana;
+    font-size: 25px;
+    text-transform: uppercase;
+    position: absolute;
+    line-height: 2;    
+    }
+ 
+h1 span{
+     font-size: 30px;
+}

@@ -1,0 +1,30 @@
+@media all and (min-width: 1170px) {
+    h1 {
+        left: 5vw;
+        top: 50vh;
+    }
+}
+
+@media all and (max-width: 1170px) {
+    #main-header {
+        background-image: url(../obrazy/man-2.jpg);
+        background-position: top center;
+        height: 70vh;
+    }
+    h1 {
+        right: 5vw;
+        top: 0vh;
+    }
+}
+
+@media all and (max-width: 992px) {
+    #main-header {
+        height: 50vh;
+        background-image: url(../obrazy/man-1.jpg);
+    }
+    h1 {
+        color: black;
+        text-align: center;
+                width: 100%;
+        top: 60vh;
+    }
